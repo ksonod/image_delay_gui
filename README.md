@@ -27,7 +27,7 @@ This section allows you to do the automatic scan for several times. Once you spe
   
 Once you start scanning, you can see the progress of the scan.
 
-<img src="https://github.com/ksonod/newport_delay_stage_gui_matlab/blob/master/dls_matlab2.PNG" width="200px">
+<img src="https://github.com/ksonod/newport_delay_stage_gui_matlab/blob/master/dls_matlab2.PNG" width="400px">
 
 ## 3. Useful References
 - Official document of the Newport Delay Line Stage: https://www.newport.com/mam/celum/celum_assets/resources/DL_Controller_-_Command_Interface_Manual.pdf?1
