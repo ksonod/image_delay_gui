@@ -9,7 +9,7 @@ This repository provides a GUI tool for controlling the [Newport delay line stag
 - Thorlabs Camera
 
 ## 2. Control Window
-<img src="https://github.com/ksonod/newport_delay_stage_gui/blob/master/dls_gui.PNG" width="500px">  
+<img src="https://github.com/ksonod/image_delay_gui/blob/master/gui_matlab.PNG" width="500px">  
   
 If you run the DLS_GUI_control.py, a new window displayed above will show up. The window consists of 3 sections:
 - CURRENT SETTINGS
