@@ -11,18 +11,18 @@ This repository provides a GUI tool for controlling the [Newport delay line stag
 ## 2. Control Window
 <img src="https://github.com/ksonod/image_delay_gui/blob/master/gui_matlab.PNG" width="500px">  
   
-If you run the DLS_GUI_control.py, a new window displayed above will show up. The window consists of 3 sections:
-- CURRENT SETTINGS
-- CHANGE SETTINGS
-- DELAY SCAN
+If you run the gui_stage_camera.m, a new window displayed above will show up. The window consists of 2 main sections:
+- Image Acquisition
+- Delay Stage Control
+The Delay Stage Control section contains 3 subsections:
+- Current Settings
+- Change Settings
+- Delay Scan
 
-### 2.1 CURRENT SETTINGS
-The section of the Current Settings shows the current values of the position, velocity, and acceleration. You can get the latest value by clicking the Update button. If you click it multiple times, you can see that the delay stage position slightly changes.
+### 2.1 Image Acquisition
+In this section, an image obtained by a camera is displayed. If you click the Get-an-Image button, you can show the current image on the window. If you click the Scan-and-Get-Images button, you can see an image obtained at a specific stage position and save all images in a created folder "scanned images." 
 
-### 2.2 CHANGE SETTINGS
-The Change Settings section allows you to change the position, velocity, and acceleration. You can type values and click the button placed right to the entry box. Move-to-x button initiates the movement of the stage to the target position. The value in the Current Settings is not automatically updated. In order to know the current stage position, you can click the Update button in the Current Settings section. Change-v and Change-a buttons allow us to change values and automatically update the Current Settings section. If you want to change all values and update the Current Settings, you can click Change-x,v,and-a-at-once button. 
-
-### 2.3 DELAY SCAN
+### 2.2 Delay Stage Control
 This section allows you to do the automatic scan for several times. Once you specify the initial and final positions and number of steps, you can calculate scan step (s/step) and scan range (s) by clicking the Calculate-time-settings button.  
   
 Once you start scanning, you can see the progress of the scan.
