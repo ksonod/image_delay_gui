@@ -20,10 +20,16 @@ The Delay Stage Control section contains 3 subsections:
 - Delay Scan
 
 ### 2.1 Image Acquisition
-In this section, an image obtained by a camera is displayed. If you click the Get-an-Image button, you can show the current image on the window. If you click the Scan-and-Get-Images button, you can see an image obtained at a specific stage position and save all images in a created folder "scanned images." 
+In this section, an image obtained by a camera is displayed. If you click the Get-an-Image button, the current image will be shown on the window. If you click the Scan-and-Get-Images button, you can see images obtained at different stage positions and save all images in a created folder "scanned images." 
 
 ### 2.2 Delay Stage Control
-This section allows you to do the automatic scan for several times. Once you specify the initial and final positions and number of steps, you can calculate scan step (s/step) and scan range (s) by clicking the Calculate-time-settings button.  
+With the options in this section, you can control the delay stage. 
+#### (1) Current Settings
+After clicking the show button, the current position, velocity, and acceleration are shown. 
+
+#### (2) Change Settings
+
+do the automatic scan for several times. Once you specify the initial and final positions and number of steps, you can calculate scan step (s/step) and scan range (s) by clicking the Calculate-time-settings button.  
   
 Once you start scanning, you can see the progress of the scan.
 
